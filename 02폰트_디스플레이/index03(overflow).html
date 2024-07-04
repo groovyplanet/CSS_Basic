@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text-box{
+            border: 1px solid #777;
+            height: 100px;
+            width: 300px;
+            overflow: visible; /* 기본값 */
+            overflow: scroll; /*무조건 스크롤을 만든다 */
+            overflow: hidden; /* 넘치는 영역을 숨긴다 */
+            overflow: auto; /* 공간이 남으면 그대로 , 넘치면 스크롤을 만듦*/
+        }
+
+        .table-box{
+            border: 1px solid #777;
+            height: 100px;
+            width: 300px;
+            overflow-x: auto; /*x축 스크롤을 자동으로 만듦*/
+            white-space: nowrap; /*가로 줄 바꿈을 방지*/
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <p class="text-box">
+        한 평범한 월요일 아침, 나는 여느 때처럼 출근 준비를 하고 있었다. 하지만 양말 한 짝을 찾지 못해 집안을 뒤집어엎으며 알게 된 사실은 내 고양이가 양말을 비밀리에 모아둔 비밀 창고가 있었다는 것! 결국 고양이의 '양말 요새'를 발견하고야 말았는데, 거기에는 지난 1년 동안 잃어버린 양말들이 전부 있었다. 고양이는 왕처럼 앉아있었고, 나는 그 앞에서 무릎을 꿇고 "대체 왜 이러는 거야?"라고 묻자, 고양이는 그 특유의 무심한 눈빛으로 나를 쳐다보며 고작 "냥."하고 대답할 뿐이었다. 그 순간 나는 깨달았다. 이 집의 진정한 주인은 내가 아니라 바로 이 녀석이라는 것을.
+    </p>
+<div class="table-box">
+    <table border="1">
+        <tr>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+        </tr>
+    
+    
+        <tr>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+        </tr>
+
+        <tr>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+            <td>데이터</td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
