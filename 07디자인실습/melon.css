@@ -1,0 +1,168 @@
+@import url(default.css);
+
+.header {
+    border-top: 3px solid #00d344;
+}
+
+.header .wrap {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.header .wrap .top {
+    width: 1008px;
+    margin: 0 auto;
+}
+
+.header .top {
+    overflow: hidden;
+}
+
+.header .top .top-left {
+    float: left;
+    color: #999;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 7px;
+}
+
+.header .top .top-right {
+    float: right;
+}
+
+.top-right>ul>li {
+    display: inline;
+    border-left: 1px solid #999;
+
+}
+
+.top-right>ul>li:nth-child(1) {
+    border: none;
+    
+}
+
+.top-right>ul>li>a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 9px 7px;
+    color: #999;
+    text-decoration: none;
+}
+.top-right>ul>li>a>span.m1{
+    /* span태그인데 클래스명 m1 */
+    background-image: url(img/head_menu_201014.png);
+    background-repeat: no-repeat;
+    background-position: -0.1px -60px;
+    width: 77px;
+    height: 20px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.header .mid{overflow: hidden; width: 1008px; margin:0 auto}
+.header .mid .mid-left{float:left; overflow: hidden;}
+.header .mid .mid-right{float: right;}
+
+.header .mid fieldset{
+    width: 330px;
+    height: 40px;
+    margin: 36px 0 0 11px;
+    background-image: url(img/bg_cmn_search322.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+.mid-left >input{
+    float: left;
+    width: 260px;
+    height: 25px;
+    margin: 7px 0 0 18px;
+    border: none;
+    display: block;
+}
+
+.mid-left>button{ 
+    float: right;
+    height: 40px;
+    width: 45px;
+    cursor: pointer;
+    background-image: url(img/btn_search_bar.png);
+    border: none;
+    background-color: #fff;
+
+}
+
+.bottom{
+    overflow: hidden;
+    width: 1008px;
+    margin: 0px auto;
+   
+}
+
+.bottom .left {
+    float: left;
+}
+.bottom .right {
+    float: right;
+}
+
+.bottom > .left li{
+    display: inline;
+}
+.bottom ul li a{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.bottom ul li a:hover{
+    color: #00d344;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
